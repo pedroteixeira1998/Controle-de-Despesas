@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Despesas</title>
+</head>
+<body>
+    <section>
+        <div class = "Entradas">
+            Entradas:R$
+            <span>0.00</span>
+        </div>
+        <div class = "Saídas">
+            Saídas:R$
+            <span>0.00</span>
+        </div>
+        <div class = "Total">
+            Total:R$
+            <span>0.00</span>
+        </div>
+    </section>
+    <section>
+        <div>
+            <label for="">Descrição:</label>
+            <input type="text">
+        </div>
+        <div>
+            <label for="">Valor:</label>
+            <input type="number">
+        </div>
+        <div>
+            <label for="">Tipo:</label>
+            <select name="Tipo" id="">
+                <option value="">Entrada</option>
+                <option value="">Saída</option>
+            </select>
+        </div>
+        <div>
+            <button type="submit">Incluir</button>
+        </div>
+    </section>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                    <th>Tipo</th>
+                    <th>Excluir</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>   
+    </main>    
+</body>
+</html>
