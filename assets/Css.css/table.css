@@ -1,0 +1,24 @@
+.main{
+    padding-top: 50px;
+}
+
+.main__table__thread__tr{
+    display: flex;
+    gap: 100px;
+    border-bottom: 1px solid var(--box-body);
+    font-weight: 700;
+    font-size: 15pt;
+}
+
+.tr__desc{
+    padding-right: 60px;
+}
+
+.tr__valor{
+    padding-right: 45px;
+}
+
+.tr__tipo{
+    padding-left: 45px;
+}
+

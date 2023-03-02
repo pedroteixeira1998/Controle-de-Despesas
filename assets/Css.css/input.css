@@ -1,0 +1,39 @@
+.Input{
+    display: flex;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.Input__Label{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 400;
+    font-size: 15pt;
+}
+
+.Input__Label__input{
+    border-radius: 3px;
+    border-style: none;
+    box-shadow: var(--box-shadow-display);
+    width: 200px;
+    height: 50px;
+    outline: none;
+    font-size: 15pt;
+}
+
+.divBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.divBtn__Btn{
+    margin-top: 50px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    background-color: var(--box-azul);
+    cursor: pointer;
+}
