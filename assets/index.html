@@ -7,55 +7,57 @@
     <link rel="stylesheet" href="Css.css/display.css ">
     <link rel="stylesheet" href="Css.css/input.css">
     <link rel="stylesheet" href="Css.css/table.css">
+    <script src="JavaScript.js/javascript.js"></script>  
     <title>Controle de Despesas</title>
 </head>
 <body>
     <section class="Display">
         <div class = "Display__Entradas">
             Entradas:R$
-            <span class="Display__Entradas__span">0.00</span>
+            <span class="Display__Entradas__span" id="tela-entradas">0.00</span>
         </div>
         <div class = "Display__Saídas">
             Saídas:R$
-            <span>0.00</span>
+            <span id="tela-saídas">0.00</span>
         </div>
         <div class = "Display__Total">
             Total:R$
-            <span>0.00</span>
+            <span id="tela-total">0.00</span>
         </div>
     </section>
     <section class = "Input">
         <div class="Input__Label">
             <label for="">Descrição:</label>
-            <input type="text" class="Input__Label__input">
+            <input type="text" class="Input__Label__input" id="descrição">
         </div>
         <div class="Input__Label">
             <label for="">Valor:</label>
-            <input type="number" class="Input__Label__input">
+            <input type="number" class="Input__Label__input" id="valor">
         </div>
         <div class="Input__Label">
             <label for="">Tipo:</label>
-            <select name="Tipo" id="" class="Input__Label__input">
+            <select name="Tipo" id="tipo" class="Input__Label__input" >
                 <option value="">Entrada</option>
                 <option value="">Saída</option>
             </select>
         </div>
     </section>
     <div class="divBtn">
-        <button type="submit" class="divBtn__Btn">INCLUIR</button>
+        <button type="submit" class="divBtn__Btn" id="btn-incluir">INCLUIR</button>
     </div>
     <main class="main">
         <table class="main__table">
             <thead class="main__table__thread">
                 <tr class="main__table__thread__tr">
+                    <th class="tr__tipo">Tipo</th>
                     <th class="tr__desc">Descrição</th>
                     <th class="tr__valor">Valor</th>
-                    <th class="tr__tipo">Tipo</th>
-                    <th class="tr__excluir"> Excluir</th>
+                    <th class="tr__excluir">Excluir</th>
                 </tr>
             </thead>
-            <tbody></tbody>
+            <tbody id="tbody"></tbody>
         </table>   
-    </main>    
+    </main> 
+     
 </body>
 </html>
