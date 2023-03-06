@@ -1,7 +1,21 @@
 # Controle-de-Despesas
-##Descriçao do Projeto
+## Descriçao do Projeto
 Página para controle de despesas. 
 
-Feita com HTML, CSS e JS.
+➖Projeto desenvolvido em HTML, CSS e JavaScript.
 
-conta com opção de inserir "Descrição", "Valor", tipo: "Entrada" ou "Saída" e opção de excluir item.
+➖Página para controle de despesas.
+
+➖Possui opção de vizualização de Entradas, Saídas e Total.
+
+## Funcionalidades.
+
+➖Visualização de Entradas;
+➖Visualização de Saídas;
+➖Visualização de Totals;
+
+## Link
+
+## Fotos
+
+## Tecnologias utilizadas
