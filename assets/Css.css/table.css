@@ -22,3 +22,34 @@
     padding-right: 45px;
 }
 
+#tbody{
+    display: flex;
+    flex-direction: column;
+    gap: px;
+
+}
+
+
+.columnType{
+    padding-right: 160px;
+    border-right: 1px solid var(--box-body);
+}
+
+#verde{
+    color: var(--box-verde);
+}
+
+#verm{
+    color: var(--box-vermelho);
+}
+
+.columnDesc{
+    padding-right: 205px ;
+    border-right: 1px solid var(--box-body);
+}
+
+.columnAction button{
+    border: none;
+    background-color: white;
+
+}
