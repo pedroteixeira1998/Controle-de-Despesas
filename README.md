@@ -19,3 +19,11 @@ Página para controle de despesas.
 ## Fotos
 
 ## Tecnologias utilizadas
+
+🍕 HTML
+
+🍕CSS
+
+🍕JavaScript
+
+🍕Visual Code
