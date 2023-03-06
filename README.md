@@ -11,7 +11,9 @@ Página para controle de despesas.
 ## Funcionalidades.
 
 ➖Visualização de Entradas;
+
 ➖Visualização de Saídas;
+
 ➖Visualização de Totals;
 
 ## Link
