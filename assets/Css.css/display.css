@@ -2,8 +2,8 @@
 
 :root{
     --box-shadow-display: 0px 1px 4px 4px rgba(0,0,0,0.14);
-    --box-verde: rgb(0, 167, 90);
-    --box-vermelho: rgb(221, 76, 57);
+    --box-verde: #00C9A7;
+    --box-vermelho: #D83121;
     --box-azul: rgb(60, 141, 189);
     --box-laranja: rgb(244, 156, 16);
     --box-body: rgb(105,105,105);

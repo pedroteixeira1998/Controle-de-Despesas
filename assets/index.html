@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="Css.css/display.css ">
     <link rel="stylesheet" href="Css.css/input.css">
     <link rel="stylesheet" href="Css.css/table.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />  
     <title>Controle de Despesas</title>
 </head>
@@ -37,24 +36,24 @@
             <input type="number" class="Input__Label__input" id="valor">
         </div>
         <div class="Input__Label">
-            <label for="">Tipo:</label>
+            <label for="tipo">Tipo:</label>
             <select name="Tipo" id="tipo" class="Input__Label__input" >
-                <option value="">Entrada</option>
-                <option value="">Saída</option>
+                <option value="Entrada">Entrada</option>
+                <option value="Saída">Saída</option>
             </select>
         </div>
     </section>
     <div class="divBtn">
         <button type="submit" class="divBtn__Btn" id="btn-incluir">INCLUIR</button>
     </div>
-    <main class="main">
-        <table class="main__table">
-            <thead class="main__table__thread">
-                <tr class="main__table__thread__tr">
-                    <th class="tr__tipo">Tipo</th>
-                    <th class="tr__desc">Descrição</th>
-                    <th class="tr__valor">Valor</th>
-                    <th class="tr__excluir">Excluir</th>
+    <main class="divTable">
+        <table>
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th class="columnAmount">Valor</th>
+                    <th class="columnType">Tipo</th>
+                    <th class="columnAction"></th>
                 </tr>
             </thead>
             <tbody id="tbody"></tbody>
@@ -63,4 +62,5 @@
     <script src="JavaScript.js/javascript.js"></script>
      
 </body>
-</html>
+</html>                    
+                    

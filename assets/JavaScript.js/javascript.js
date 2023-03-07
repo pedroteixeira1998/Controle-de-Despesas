@@ -6,7 +6,7 @@ const btn = document.querySelector("#btn-incluir");
 
 const entradas = document.querySelector("#tela-entradas");
 const saidas = document.querySelector("#tela-saídas");
-const total = document.querySelector("#total");
+const total = document.querySelector("#tela-total");
 
 let itens;
 
@@ -40,22 +40,22 @@ function insertItem(item, index){
     let tr = document.createElement("tr");
 
     tr.innerHTML = `
-    <div class= "tabela">
-        <td class = "columnType">${item.tipo === "Entrada"
-            ? '<span id = "verm" class="material-symbols-outlined">expand_more</span>'
-            : '<span id = "verde" class="material-symbols-outlined">expand_less</span>'
+    <td>${item.descrição}</td>
+    <td>R$ ${item.valor}</td>
+    <td class = "columnType">${
+        item.tipo === "Entrada"
+            ? '<i class="bx bxs-chevron-up-circle"></i>'
+            : '<i class="bx bxs-chevron-down-circle"></i>'
         }</td>
-        <td class = "columnDesc">${item.descrição}</td>
-        <td class = "columnType">R$ ${item.valor}</td>
-        
         <td class = "columnAction">
         <button onclick="deleteItem(${index})"><span class="material-symbols-outlined">
         delete
-        </span>
-    </div>`;
+        </span>`;
+        
 
     tbody.appendChild(tr);
-}
+}        
+
 
 function loadItens(){
     itens = getItensBD();
